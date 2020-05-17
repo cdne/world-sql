@@ -27,7 +27,7 @@ class WorldDBCreatorTest {
 
     @AfterAll
     public static void tearDown() {
-        // delete test data
+//         delete test data
         try {
             worldDBCreator.executeUpdate("TRUNCATE TABLE city CASCADE;");
             worldDBCreator.executeUpdate("TRUNCATE TABLE country CASCADE;");
